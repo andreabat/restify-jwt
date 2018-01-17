@@ -41,7 +41,7 @@
         "restify": "3.x"
     },
     "peerDependencies": {
-        "restify": "5.x"
+        "restify": "5.x || 6.x"
 
     },
     "engines": {
