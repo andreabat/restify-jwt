@@ -5,7 +5,7 @@
 
 [Restify](http://mcavage.me/node-restify/) middleware that validates JsonWebTokens and sets `req.user`.
 
-This module lets you authenticate HTTP requests using JWT tokens in your restify applications.
+This module lets you authenticate HTTP requests using JWT tokens in your restify 5.x> applications.
 
 ## Install
 
