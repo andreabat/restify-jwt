@@ -16,10 +16,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/andreabat/restify-jwt.git"
+        "url": "git://github.com/andreabat/restifyve-jwt.git"
     },
     "bugs": {
-        "url": "http://github.com/andreabat/restify-jwt/issues"
+        "url": "https://github.com/andreabat/restifyve-jwt.git/issues"
     },
     "author": {
         "name": "Andrea Batazzi",
