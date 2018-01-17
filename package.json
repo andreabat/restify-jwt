@@ -1,54 +1,53 @@
 {
-  "name": "restify-jwt",
-  "version": "0.4.0",
-  "description": "JWT authentication middleware.",
-  "keywords": [
-    "auth",
-    "authn",
-    "authentication",
-    "authz",
-    "authorization",
-    "http",
-    "jwt",
-    "token",
-    "oauth",
-    "restify"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/amrav/restify-jwt.git"
-  },
-  "bugs": {
-    "url": "http://github.com/amrav/restify-jwt/issues"
-  },
-  "author": {
-    "name": "Vikrant Varma",
-    "email": "vikrant.varma94@gmail.com"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
+    "name": "restify-jwt",
+    "version": "0.4.0",
+    "description": "JWT authentication middleware.",
+    "keywords": [
+        "auth",
+        "authn",
+        "authentication",
+        "authz",
+        "authorization",
+        "http",
+        "jwt",
+        "token",
+        "oauth",
+        "restify"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/amrav/restify-jwt.git"
+    },
+    "bugs": {
+        "url": "http://github.com/amrav/restify-jwt/issues"
+    },
+    "author": {
+        "name": "Vikrant Varma",
+        "email": "vikrant.varma94@gmail.com"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://www.opensource.org/licenses/MIT"
+    }],
+    "main": "./lib",
+    "dependencies": {
+        "async": "^0.9.0",
+        "express-unless": "^0.3.0",
+        "jsonwebtoken": "^5.0.0",
+        "restify-errors": "^5.0.0"
+    },
+    "devDependencies": {
+        "mocha": "1.x.x",
+        "restify": "3.x"
+    },
+    "peerDependencies": {
+        "restify": "5.x"
+
+    },
+    "engines": {
+        "node": ">= 0.10.0"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --reporter spec"
     }
-  ],
-  "main": "./lib",
-  "dependencies": {
-    "async": "^0.9.0",
-    "express-unless": "^0.3.0",
-    "jsonwebtoken": "^5.0.0"
-  },
-  "devDependencies": {
-    "mocha": "1.x.x",
-    "restify": "3.x"
-  },
-  "peerDependencies": {
-    "restify": "3.x || 4.x",
-    "restify-errors": "^3.1.0"
-  },
-  "engines": {
-    "node": ">= 0.10.0"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec"
-  }
 }
